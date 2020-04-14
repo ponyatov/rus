@@ -1,6 +1,6 @@
 # Язык программирования Rust
 
-* [книга по языку Rust](https://github.com/ponyatov/rus/releases/download/140420-20d8/Rust.ru.pdf)
+* [книга по языку Rust](https://github.com/ponyatov/rus/releases/download/140420-20d8/Rust.ru.pdf) /pdf/
 * https://stevedonovan.github.io/rust-gentle-intro/readme.html
 
 Язык разрабатывался как замена С/С++ для разработки надежных приложений как для
