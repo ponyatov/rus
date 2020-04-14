@@ -1,5 +1,5 @@
 #  rus
-## Rust OS / rumpkernel &amp; bare metal /
+## Rust OS / rumpkernel & bare metal /
 
 (c) Dmitry Ponyatov <<dponyatov@gmail.com>> 2020 MIT
 

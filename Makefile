@@ -13,7 +13,7 @@ target/debug/rus: src/*.rs Cargo.toml Makefile
 
 .PHONY: master shadow release zip
 
-MERGE  = Makefile README.md .gitignore .vscode
+MERGE  = Makefile README.md .gitignore .vscode doc
 MERGE += src Cargo.toml
 
 master:
