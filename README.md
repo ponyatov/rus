@@ -5,10 +5,10 @@
 
 github: https://github.com/ponyatov/rus
 
-* [doc/About.md]
-* [doc/Install.md]
-* [doc/Targets.md]
-* [doc/Rust.md]
+* [О системе](doc/About.md)
+* [Установка](doc/Install.md)
+* [Целевые платформы](doc/Targets.md)
+* [Язык Rust](doc/Rust.md)
 
 ## Rust
 
