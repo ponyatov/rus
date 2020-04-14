@@ -1,9 +1,14 @@
 #  rus
-## Rust OS / rumpkernel & bare metal /
+## Rust OS / guest & rumpkernel & bare metal /
 
 (c) Dmitry Ponyatov <<dponyatov@gmail.com>> 2020 MIT
 
 github: https://github.com/ponyatov/rus
+
+* [doc/About.md]
+* [doc/Install.md]
+* [doc/Targets.md]
+* [doc/Rust.md]
 
 ## Rust
 
