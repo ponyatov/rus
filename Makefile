@@ -4,12 +4,29 @@ MODULE = $(notdir $(CWD))
 NOW = $(shell date +%d%m%y)
 REL = $(shell git rev-parse --short=4 HEAD)
 
+CARGO = $(HOME)/.cargo/bin/cargo
+RUSTC = $(HOME)/.cargo/bin/rustc
+
+
+
 .PHONY: all
 all: target/debug/rus
 	$^
 
 target/debug/rus: src/*.rs Cargo.toml Makefile
-	cargo build && size $@ && file $@
+	$(CARGO) build && size $@ && file $@
+
+
+
+.PHONY: install update
+install: debian $(CARGO) $(RUSTC)
+update:  debian
+
+.PHONY: debian
+debian:
+	sudo apt update
+	sudo apt install -u make git build-essential qemu-system-x86
+
 
 .PHONY: master shadow release zip
 
